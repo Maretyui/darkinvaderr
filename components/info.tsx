@@ -6,7 +6,7 @@ function Info() {
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
             <img 
-              src="/image.png" 
+              src="/plane-fancy.png" 
               alt="OVLD Skylines" 
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out" 
             />
