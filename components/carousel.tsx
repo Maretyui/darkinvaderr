@@ -2,7 +2,7 @@ const images = [
   '/car-black.png',
   '/red-outfit.png',
   '/garage.png',
-  '/plane-fancy.png',
+  '/car-fancy.png',
   '/plane-people.png',
   '/image.png',
 ];
