@@ -7,6 +7,7 @@ import { IconBrandPatreon } from '@tabler/icons-react';
 import Image from "next/image"
 import ImageCarousel from "@/components/carousel";
 import Info from "@/components/info"
+import Donations from "@/components/donations";
 
 export default function Home() {
 
@@ -109,6 +110,7 @@ export default function Home() {
         <div className="absolute -right-20 top-1/4 size-96 rounded-full bg-accent/20 blur-[120px]" />
       </section>
             <Info />
+            <Donations />
       <footer className="border-t border-border/50 bg-card/30 py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
@@ -123,6 +125,11 @@ export default function Home() {
             <div className="text-sm text-muted-foreground">
               2026 &copy; <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
               ">Maretyui</a>. All rights reserved.
+            </div>
+            <div className="text-sm text-muted-foreground">
+              <a href="/impressum" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
+              ">Impressum</a> |               <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
+              ">Datenschutz</a>
             </div>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent">
