@@ -78,7 +78,7 @@ export default function Home() {
 
             <p className="mx-auto max-w-2xl text-pretty text-lg text-muted-foreground sm:text-xl">
               {
-                "Join the most elite GTA V Online modded heists and car meet community. Experience the feeling of being rich, drive through Los Santos with the Crew and win prices."
+                "Join the most elite GTA V Online modded heists and car meet community. Experience the feeling of being rich, drive through Los Santos with the Crew and win prizes."
               }
             </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -132,9 +132,11 @@ export default function Home() {
               ">Datenschutz</a>
             </div>
             <div className="flex gap-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent">
-                <FaDiscord className="size-5" />
-              </Button>
+              <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent" aria-label="Join our Discord">
+                  <FaDiscord className="size-5" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
