@@ -7,7 +7,7 @@ function Info() {
           <div className="w-full lg:w-1/2">
             <img 
               src="/plane-fancy.png" 
-              alt="OVLD Skylines" 
+              alt="Darkinvaderr Skylines"
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out" 
             />
           </div>
@@ -48,7 +48,7 @@ function Info() {
           <div className="w-full lg:w-1/2">
             <img 
               src="/garage.png" 
-              alt="OVLD Car Meet" 
+              alt="Darkinvaderr Car Meet"
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out" 
             />
           </div>
@@ -60,7 +60,7 @@ function Info() {
             <div className="w-12 h-1 bg-primary mb-8"></div>
             
             <div className="space-y-6 text-sm leading-relaxed tracking-wide text-muted-foreground">
-              <p>Founded in the end of 2024 by Darkinvaderr, with a vision to create a community where GTA Members can come together and earn some cash.</p>
+              <p>Founded at the end of 2024 by Darkinvaderr, with a vision to create a community where GTA Members can come together and earn some cash.</p>
               <p>At the moment, we are two enthusiastic individuals working to make the community a welcoming environment for everyone, alongside with all our members.</p>
             </div>
 
