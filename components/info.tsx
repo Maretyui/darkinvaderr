@@ -19,7 +19,7 @@ function Info() {
             <div className="w-12 h-1 bg-primary mb-8"></div>
             
             <div className="space-y-6 text-sm leading-relaxed tracking-wide text-muted-foreground">
-              <p>Car meets, GTA Heists, races, photo competitions and modding</p>
+              <p>Car meets, GTA Heists, races, photo competitions and modding.</p>
               <p>Whether you're a true car enthusiast who can name every JDM car ever built, or you just want to showcase your car at meets or even just get free cash, there is a place for you at Darkinvaderr Gaming.</p>
             </div>
 
