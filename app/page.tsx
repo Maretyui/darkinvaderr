@@ -123,13 +123,10 @@ export default function Home() {
               </span>
             </div>
             <div className="text-sm text-muted-foreground">
-              2026 &copy; <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
-              ">Maretyui</a>. All rights reserved.
+              2026 &copy; <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Maretyui</a>. All rights reserved.
             </div>
             <div className="text-sm text-muted-foreground">
-              <a href="/impressum" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
-              ">Impressum</a> |               <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:text-foreground
-              ">Datenschutz</a>
+              <a href="/impressum" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Impressum</a> | <a href="/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Datenschutz</a>
             </div>
             <div className="flex gap-4">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
