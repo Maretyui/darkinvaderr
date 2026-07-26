@@ -53,7 +53,7 @@ Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer 
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary/20">
-          <p className=" text-sm">Last updated: Dezember 2025</p>
+          <p className="text-sm">Last updated: Dezember 2025</p>
         </div>
       </div>
     </main>
