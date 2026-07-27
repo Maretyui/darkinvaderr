@@ -1,3 +1,5 @@
+import { Car, Trophy, Flag, Camera } from "lucide-react"
+
 function Info() {
   return (
     <section className="bg-background text-foreground py-20 px-4">
@@ -25,19 +27,19 @@ function Info() {
 
             <div className="mt-10 pt-10 border-t border-border grid grid-cols-2 gap-y-6 gap-x-4">
               <div className="flex items-center gap-3">
-                <i className="fa-solid fa-car-side text-foreground text-lg"></i>
+                <Car className="text-foreground size-[18px]" aria-hidden="true" />
                 <span className="uppercase text-[11px] font-bold tracking-widest">Car Meets</span>
               </div>
               <div className="flex items-center gap-3">
-                <i className="fa-solid fa-trophy text-foreground text-lg"></i>
+                <Trophy className="text-foreground size-[18px]" aria-hidden="true" />
                 <span className="uppercase text-[11px] font-bold tracking-widest">Modded Heists</span>
               </div>
               <div className="flex items-center gap-3">
-                <i className="fa-solid fa-flag-checkered text-foreground text-lg"></i>
+                <Flag className="text-foreground size-[18px]" aria-hidden="true" />
                 <span className="uppercase text-[11px] font-bold tracking-widest">Racing</span>
               </div>
               <div className="flex items-center gap-3">
-                <i className="fa-solid fa-camera text-foreground text-lg"></i>
+                <Camera className="text-foreground size-[18px]" aria-hidden="true" />
                 <span className="uppercase text-[11px] font-bold tracking-widest">Photo Contests</span>
               </div>
             </div>
