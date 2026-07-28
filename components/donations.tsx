@@ -95,7 +95,16 @@ export default function Donations() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center text-muted-foreground mt-12 max-w-2xl mx-auto"
         >
-          All payments are processed securely via Stripe. Learn more on their website. 
+          All payments are processed securely via Stripe. Learn more on{" "}
+          <a
+            href="https://stripe.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-foreground"
+          >
+            their website
+          </a>
+          .
         </motion.p>
       </div>
     </section>
