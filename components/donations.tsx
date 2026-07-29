@@ -25,7 +25,7 @@ export default function Donations() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <Button variant="ghost" onClick={() => setShowCheckout(false)} className="mb-8">
-              ← Zurück
+              ← Back
             </Button>
             <Checkout amount={Number.parseFloat(customAmount)} />
           </div>
