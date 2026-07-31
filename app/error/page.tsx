@@ -23,22 +23,22 @@ export default function ErrorPage() {
           <XCircle className="w-24 h-24 text-destructive" />
         </motion.div>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Ein Fehler ist aufgetreten</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Something Went Wrong</h1>
 
         <p className="text-lg text-muted-foreground mb-8 text-balance">
-          Leider konnte Ihre Nachricht nicht gesendet werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie
-          uns direkt per E-Mail.
+          Unfortunately your request could not be processed. Please try again later or reach out to us directly on
+          Discord.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/">
             <Button size="lg" className="px-8 w-full sm:w-auto">
-              Zurück zur Startseite
+              Back to Homepage
             </Button>
           </Link>
           <Link href="/#contact">
             <Button size="lg" variant="outline" className="px-8 w-full sm:w-auto bg-transparent">
-              Erneut versuchen
+              Try Again
             </Button>
           </Link>
         </div>
