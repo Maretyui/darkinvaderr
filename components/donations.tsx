@@ -100,6 +100,7 @@ export default function Donations() {
             href="https://stripe.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Stripe (opens in a new tab)"
             className="underline hover:text-foreground"
           >
             their website
