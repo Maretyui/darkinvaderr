@@ -63,7 +63,7 @@ function Info() {
             
             <div className="space-y-6 text-sm leading-relaxed tracking-wide text-muted-foreground">
               <p>Founded at the end of 2024 by Darkinvaderr, with a vision to create a community where GTA Members can come together and earn some cash.</p>
-              <p>At the moment, we are two enthusiastic individuals working to make the community a welcoming environment for everyone, alongside with all our members.</p>
+              <p>At the moment, we are two enthusiastic individuals working to make the community a welcoming environment for everyone, alongside all our members.</p>
             </div>
 
             <div className="mt-12 flex justify-start gap-16">
