@@ -41,19 +41,19 @@ export default function Home() {
               </a>
 
               <a href="https://www.twitch.tv/darkinvaderrgaming" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="Twitch" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
+                <Button variant="ghost" size="icon" aria-label="Twitch (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
                   <FaTwitch className="size-5" />
                 </Button>
               </a>
 
               <a href="https://www.patreon.com/DarkInvaderr/shop" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="Patreon Shop" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
+                <Button variant="ghost" size="icon" aria-label="Patreon Shop (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
                   <IconBrandPatreon className="size-5" />
                 </Button>
               </a>
 
               <a href="https://www.youtube.com/channel/UC9M76EqbgeOYbJlEK_wPx_w" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="YouTube" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
+                <Button variant="ghost" size="icon" aria-label="YouTube (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
                   <FaYoutube className="size-5" />
                 </Button>
               </a>
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
             <div className="flex gap-4">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent" aria-label="Join our Discord">
+                <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent" aria-label="Join our Discord (opens in a new tab)">
                   <FaDiscord className="size-5" />
                 </Button>
               </a>
