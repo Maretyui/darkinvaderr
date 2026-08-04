@@ -34,7 +34,7 @@ export default function Home() {
           </div>
             <div className="flex items-center gap-3">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border">
+                <Button aria-label="Discord (opens in a new tab)" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border">
                   <FaDiscord className="mr-2 size-4" />
                   Discord
                 </Button>
@@ -85,6 +85,7 @@ export default function Home() {
                 <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
+                    aria-label="Join Discord Server (opens in a new tab)"
                     className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border transition-transform hover:scale-105">
                     <FaDiscord className="mr-2 size-5" />
                     Join Discord Server
@@ -97,6 +98,7 @@ export default function Home() {
                   <Button
                     size="lg"
                     variant="outline"
+                    aria-label="Support on Patreon (opens in a new tab)"
                     className="border-border/60 text-muted-foreground hover:text-foreground hover:border-primary/50 hover:bg-card/50 transition-transform hover:scale-105">
                     <IconBrandPatreon className="mr-2 size-5" />
                     Support on Patreon
