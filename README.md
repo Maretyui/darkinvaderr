@@ -8,3 +8,7 @@ Live: https://darkinvaderr.com
 
 - Next.js (App Router) + TypeScript
 - Tailwind CSS
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE).
