@@ -20,7 +20,7 @@ export default function ErrorPage() {
           transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
           className="flex justify-center mb-6"
         >
-          <XCircle className="w-24 h-24 text-destructive" />
+          <XCircle className="w-24 h-24 text-destructive" aria-hidden="true" />
         </motion.div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Something Went Wrong</h1>
