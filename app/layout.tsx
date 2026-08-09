@@ -16,7 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://darkinvaderr.com"),
+  metadataBase: new URL("https://darkinvaderr.com"),
 
   title: "Darkinvaderr Gaming",
   description:
