@@ -36,6 +36,13 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+
+  alternates: {
+    canonical: "/",
+  },
+  formatDetection: {
+    telephone: false,
+  },
 }
 
 export default function RootLayout({
