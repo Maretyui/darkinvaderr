@@ -30,8 +30,6 @@ export default function Home() {
               Darkinvaderr
             </span>
           </div>
-          <div className="hidden items-center gap-8 md:flex">
-          </div>
             <div className="flex items-center gap-3">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
                 <Button aria-label="Discord (opens in a new tab)" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border">
