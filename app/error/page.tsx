@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { XCircle } from "lucide-react"
+import { FaDiscord } from "react-icons/fa"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -36,11 +37,17 @@ export default function ErrorPage() {
               Back to Homepage
             </Button>
           </Link>
-          <Link href="/#contact">
-            <Button size="lg" variant="outline" className="px-8 w-full sm:w-auto bg-transparent">
-              Try Again
+          <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              variant="outline"
+              aria-label="Contact us on Discord (opens in a new tab)"
+              className="px-8 w-full sm:w-auto bg-transparent"
+            >
+              <FaDiscord className="mr-2 size-5" aria-hidden="true" />
+              Contact us on Discord
             </Button>
-          </Link>
+          </a>
         </div>
       </motion.div>
     </div>
