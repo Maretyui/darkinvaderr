@@ -59,6 +59,7 @@ export default function Home() {
         </div>
       </nav>
 
+      <main>
       <section className="relative overflow-hidden pt-24">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
         <div className="neon-line absolute left-0 top-40 w-full" />
@@ -111,6 +112,7 @@ export default function Home() {
       </section>
             <Info />
             <Donations />
+      </main>
       <footer className="border-t border-border/50 bg-card/30 py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
