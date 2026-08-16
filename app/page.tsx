@@ -66,9 +66,6 @@ export default function Home() {
 
         <div className="container relative mx-auto px-4 py-20 text-center lg:py-32">
           <div className="mx-auto max-w-4xl space-y-8">
-            <div className="inline-block py-1.5">
-            </div>
-
             <h1 className="font-[family-name:var(--font-heading)] text-5xl font-bold leading-tight tracking-tight text-foreground sm:text-6xl lg:text-7xl">
               <span className="glow-text">DARKINVADERR</span>
               <br />
