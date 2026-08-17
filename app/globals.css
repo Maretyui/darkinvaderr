@@ -157,6 +157,12 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .animate-carousel-scroll {
+    animation: none;
+  }
+}
+
 .glow-text {
   text-shadow:
     0 0 8px rgba(255, 120, 0, 0.6),
