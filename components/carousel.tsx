@@ -35,7 +35,7 @@ function ImageCarousel() {
   return (
     <section className="relative left-1/2 right-1/2 mb-8 mt-24 flex w-[100vw] -translate-x-1/2 justify-center overflow-hidden bg-none p-0">
       <div className="relative w-[100vw] overflow-hidden py-8 md:py-4">
-        <div className="flex w-fit animate-[image-carousel-scroll_40s_linear_infinite] items-center">
+        <div className="flex w-fit animate-carousel-scroll items-center">
           {images.map(({ src, alt }, idx) => (
             <CarouselTile key={`original-${idx}`} src={src} alt={alt} />
           ))}
