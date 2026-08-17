@@ -7,10 +7,11 @@ function Info() {
         
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
-            <img 
-              src="/plane-fancy.png" 
+            <img
+              src="/plane-fancy.png"
               alt="Darkinvaderr Skylines"
-              className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out" 
+              loading="lazy"
+              className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
 
@@ -48,10 +49,11 @@ function Info() {
 
         <div id="about" className="flex flex-col lg:flex-row-reverse items-center gap-10">
           <div className="w-full lg:w-1/2">
-            <img 
-              src="/garage.png" 
+            <img
+              src="/garage.png"
               alt="Darkinvaderr Car Meet"
-              className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out" 
+              loading="lazy"
+              className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
 
