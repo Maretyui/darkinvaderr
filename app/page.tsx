@@ -33,26 +33,26 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
                 <Button aria-label="Discord (opens in a new tab)" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border">
-                  <FaDiscord className="mr-2 size-4" />
+                  <FaDiscord className="mr-2 size-4" aria-hidden="true" />
                   Discord
                 </Button>
               </a>
 
               <a href="https://www.twitch.tv/darkinvaderrgaming" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" aria-label="Twitch (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
-                  <FaTwitch className="size-5" />
+                  <FaTwitch className="size-5" aria-hidden="true" />
                 </Button>
               </a>
 
               <a href="https://www.patreon.com/DarkInvaderr/shop" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" aria-label="Patreon Shop (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
-                  <IconBrandPatreon className="size-5" />
+                  <IconBrandPatreon className="size-5" aria-hidden="true" />
                 </Button>
               </a>
 
               <a href="https://www.youtube.com/channel/UC9M76EqbgeOYbJlEK_wPx_w" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" aria-label="YouTube (opens in a new tab)" className="text-muted-foreground hover:text-foreground hover:bg-card/50 transition-transform hover:scale-105">
-                  <FaYoutube className="size-5" />
+                  <FaYoutube className="size-5" aria-hidden="true" />
                 </Button>
               </a>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
                     size="lg"
                     aria-label="Join Discord Server (opens in a new tab)"
                     className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border transition-transform hover:scale-105">
-                    <FaDiscord className="mr-2 size-5" />
+                    <FaDiscord className="mr-2 size-5" aria-hidden="true" />
                     Join Discord Server
                   </Button>
                 </a>
@@ -96,7 +96,7 @@ export default function Home() {
                     variant="outline"
                     aria-label="Support on Patreon (opens in a new tab)"
                     className="border-border/60 text-muted-foreground hover:text-foreground hover:border-primary/50 hover:bg-card/50 transition-transform hover:scale-105">
-                    <IconBrandPatreon className="mr-2 size-5" />
+                    <IconBrandPatreon className="mr-2 size-5" aria-hidden="true" />
                     Support on Patreon
                   </Button>
                 </a>
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="flex gap-4">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent" aria-label="Join our Discord (opens in a new tab)">
-                  <FaDiscord className="size-5" />
+                  <FaDiscord className="size-5" aria-hidden="true" />
                 </Button>
               </a>
             </div>
