@@ -37,6 +37,14 @@ export const metadata: Metadata = {
     type: "website",
   },
 
+  twitter: {
+    card: "summary_large_image",
+    title: "Darkinvaderr Gaming",
+    description:
+      "Elite GTA V modded heists community on Discord.",
+    images: ["https://darkinvaderr.com/image-new.png"],
+  },
+
   alternates: {
     canonical: "/",
   },
