@@ -1,24 +1,30 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { motion, useReducedMotion } from "framer-motion"
 import { XCircle } from "lucide-react"
 import { FaDiscord } from "react-icons/fa"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export default function ErrorPage() {
+  const shouldReduceMotion = useReducedMotion()
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background via-background to-accent/5 px-4">
       <motion.div
-        initial={{ opacity: 0, scale: 0.9 }}
+        initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: shouldReduceMotion ? 0 : 0.5 }}
         className="max-w-md w-full text-center"
       >
         <motion.div
-          initial={{ scale: 0 }}
+          initial={shouldReduceMotion ? false : { scale: 0 }}
           animate={{ scale: 1 }}
-          transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+          transition={
+            shouldReduceMotion
+              ? { duration: 0 }
+              : { delay: 0.2, type: "spring", stiffness: 200 }
+          }
           className="flex justify-center mb-6"
         >
           <XCircle className="w-24 h-24 text-destructive" aria-hidden="true" />
