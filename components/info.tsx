@@ -11,6 +11,8 @@ function Info() {
               src="/plane-fancy.png"
               alt="Darkinvaderr Skylines"
               loading="lazy"
+              width={1579}
+              height={1033}
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
@@ -53,6 +55,8 @@ function Info() {
               src="/garage.png"
               alt="Darkinvaderr Car Meet"
               loading="lazy"
+              width={1229}
+              height={1080}
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
