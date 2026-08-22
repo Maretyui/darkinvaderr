@@ -24,7 +24,7 @@ export default function Donations() {
       <section id="donations" className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <Button variant="ghost" onClick={() => setShowCheckout(false)} className="mb-8">
+            <Button variant="ghost" onClick={() => setShowCheckout(false)} className="mb-8" aria-label="Back to donation form">
               <span aria-hidden="true">←</span> Back
             </Button>
             <Checkout amount={Number.parseFloat(customAmount)} />
