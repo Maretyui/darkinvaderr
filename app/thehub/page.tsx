@@ -22,16 +22,18 @@ export default function LockedForensicScanner() {
       </h1>
 
       <div className="mb-10 flex flex-col sm:flex-row gap-6 items-center bg-zinc-900/30 p-6 rounded-lg border border-zinc-800">
-        <input 
-          type="file" 
+        <input
+          type="file"
           onChange={handleUpload}
+          aria-label="Upload image for analysis"
           className="text-xs file:bg-zinc-800 file:border-0 file:rounded file:text-white file:px-4 file:py-2 cursor-pointer hover:file:bg-zinc-700"
         />
-        <button 
+        <button
           onClick={() => setIsRevealed(!isRevealed)}
+          aria-pressed={isRevealed}
           className={`px-10 py-2 rounded font-black transition-all duration-200 border-2 ${
-            isRevealed 
-            ? "bg-blue-600 text-white border-blue-600 shadow-[0_0_15px_rgba(37,99,235,0.4)]" 
+            isRevealed
+            ? "bg-blue-600 text-white border-blue-600 shadow-[0_0_15px_rgba(37,99,235,0.4)]"
             : "bg-transparent text-blue-500 border-blue-500 hover:bg-blue-500/10"
           }`}
         >
