@@ -18,7 +18,7 @@ Live: https://darkinvaderr.com
 
 ## Accessibility
 
-The homepage includes a "Skip to main content" link and labels every icon-only button (Discord/Twitch/Patreon/YouTube) with a descriptive `aria-label`. Images in `components/info.tsx` use `loading="lazy"` with explicit `width`/`height` to avoid layout shift. The carousel in `components/carousel.tsx` respects `prefers-reduced-motion` by disabling its scroll animation for users who request reduced motion.
+The homepage includes a "Skip to main content" link and labels every icon-only button (Discord/Twitch/Patreon/YouTube) with a descriptive `aria-label`. Images in `components/info.tsx` use `loading="lazy"` with explicit `width`/`height` to avoid layout shift. The carousel in `components/carousel.tsx` respects `prefers-reduced-motion` by disabling its scroll animation for users who request reduced motion. On `app/thehub/page.tsx`, the file input carries an `aria-label` (it had no accessible name otherwise) and the reveal toggle button exposes its state via `aria-pressed`.
 
 ## Getting Started
 
