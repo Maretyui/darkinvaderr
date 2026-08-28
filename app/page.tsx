@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { FaDiscord, FaTwitch, FaYoutube } from "react-icons/fa"
 import { IconBrandPatreon } from '@tabler/icons-react';
 import Image from "next/image"
+import Link from "next/link"
 import ImageCarousel from "@/components/carousel";
 import Info from "@/components/info"
 import Donations from "@/components/donations";
@@ -131,7 +132,7 @@ export default function Home() {
               {new Date().getFullYear()} &copy; <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Maretyui<span className="sr-only"> (opens in a new tab)</span></a>. All rights reserved.
             </div>
             <div className="text-sm text-muted-foreground">
-              <a href="/impressum" className="hover:text-foreground">Impressum</a> | <a href="/datenschutz" className="hover:text-foreground">Datenschutz</a>
+              <Link href="/impressum" className="hover:text-foreground">Impressum</Link> | <Link href="/datenschutz" className="hover:text-foreground">Datenschutz</Link>
             </div>
             <div className="flex gap-4">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
