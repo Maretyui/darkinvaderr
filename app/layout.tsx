@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
   title: "Darkinvaderr Gaming",
   description:
-    "Elite GTA V modded heists community on Discord. Join Darkinvader's crew for the ultimate heist experience.",
+    "Elite GTA V modded heists community on Discord. Join Darkinvaderr's crew for the ultimate heist experience.",
 
   openGraph: {
     title: "Darkinvaderr Gaming",
