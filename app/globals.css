@@ -157,6 +157,13 @@
   }
 }
 
+/* Use the brand's own primary color for text selection instead of the
+   browser's default blue, matching the glow accent used elsewhere. */
+::selection {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-carousel-scroll {
     animation: none;
