@@ -131,9 +131,9 @@ export default function Home() {
             <div className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Maretyui<span className="sr-only"> (opens in a new tab)</span></a>. All rights reserved.
             </div>
-            <div className="text-sm text-muted-foreground">
-              <Link href="/impressum" className="hover:text-foreground">Impressum</Link> | <Link href="/datenschutz" className="hover:text-foreground">Datenschutz</Link>
-            </div>
+            <nav aria-label="Rechtliches" className="text-sm text-muted-foreground">
+              <Link href="/impressum" className="hover:text-foreground">Impressum</Link> <span aria-hidden="true">|</span> <Link href="/datenschutz" className="hover:text-foreground">Datenschutz</Link>
+            </nav>
             <div className="flex gap-4">
               <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-transparent" aria-label="Join our Discord (opens in a new tab)">
