@@ -1,5 +1,5 @@
 import type { ReactNode } from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Orbitron, Inter } from "next/font/google"
 import "./globals.css"
 
@@ -51,6 +51,10 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: "#f97316",
 }
 
 export default function RootLayout({
