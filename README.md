@@ -15,6 +15,7 @@ Live: https://darkinvaderr.com
 - `app/thehub/page.tsx` — client-only forensic-scanner style image tool
 - `app/impressum/page.tsx`, `app/datenschutz/page.tsx` — legal pages
 - Page title/description metadata lives in `app/layout.tsx`, kept in sync across the top-level `metadata`, `openGraph`, and `twitter` fields
+- `app/sitemap.ts`/`app/robots.ts` generate `sitemap.xml`/`robots.txt` at build time — the sitemap only lists the public pages (home, Impressum, Datenschutz), and `/thehub`/`/error` are excluded from crawling
 
 ## Accessibility
 
