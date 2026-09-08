@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Car, Trophy, Flag, Camera } from "lucide-react"
 
 function Info() {
@@ -7,7 +8,7 @@ function Info() {
         
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/plane-fancy.png"
               alt="Darkinvaderr Skylines"
               loading="lazy"
@@ -51,7 +52,7 @@ function Info() {
 
         <div id="about" className="flex flex-col lg:flex-row-reverse items-center gap-10">
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/garage.png"
               alt="Darkinvaderr Car Meet"
               loading="lazy"
