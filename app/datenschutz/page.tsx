@@ -1,4 +1,10 @@
 import Link from "next/link"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Datenschutz | Darkinvaderr Gaming",
+  description: "Datenschutzerklärung von Darkinvaderr Gaming.",
+}
 
 export default function Datenschutz() {
   return (
