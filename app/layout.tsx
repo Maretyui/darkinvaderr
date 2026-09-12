@@ -55,6 +55,10 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#f97316",
+  // This site is dark-only (no light theme/toggle exists), so tell the
+  // browser to keep native UI (scrollbars, form controls, autofill) dark
+  // too instead of defaulting to light against a dark page.
+  colorScheme: "dark",
 }
 
 export default function RootLayout({
