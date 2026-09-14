@@ -38,22 +38,21 @@ export default function ErrorPage() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/">
-            <Button size="lg" className="px-8 w-full sm:w-auto">
-              Back to Homepage
-            </Button>
-          </Link>
-          <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
-            <Button
-              size="lg"
-              variant="outline"
-              aria-label="Contact us on Discord (opens in a new tab)"
-              className="px-8 w-full sm:w-auto bg-transparent"
-            >
+          <Button asChild size="lg" className="px-8 w-full sm:w-auto">
+            <Link href="/">Back to Homepage</Link>
+          </Button>
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            aria-label="Contact us on Discord (opens in a new tab)"
+            className="px-8 w-full sm:w-auto bg-transparent"
+          >
+            <a href="https://discord.gg/p8aTkwz3vz" target="_blank" rel="noopener noreferrer">
               <FaDiscord className="mr-2 size-5" aria-hidden="true" />
               Contact us on Discord
-            </Button>
-          </a>
+            </a>
+          </Button>
         </div>
       </motion.div>
     </div>
