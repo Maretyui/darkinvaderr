@@ -61,6 +61,22 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 }
 
+// Lets search engines recognize Darkinvaderr Gaming as a distinct
+// organization and link its social profiles together.
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Darkinvaderr Gaming",
+  url: "https://darkinvaderr.com",
+  logo: "https://darkinvaderr.com/image-new.png",
+  sameAs: [
+    "https://discord.gg/p8aTkwz3vz",
+    "https://www.twitch.tv/darkinvaderrgaming",
+    "https://www.patreon.com/DarkInvaderr/shop",
+    "https://www.youtube.com/channel/UC9M76EqbgeOYbJlEK_wPx_w",
+  ],
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -71,6 +87,10 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${orbitron.variable} font-sans antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         {children}
       </body>
     </html>
