@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
           <div className="flex items-center gap-2">
             <div className="relative size-10">
-              <Image src="/image-new-nobg.png" alt="Darkinvaderr Banner" fill className="object-contain" />
+              <Image src="/image-new-nobg.png" alt="Darkinvaderr Banner" fill sizes="40px" className="object-contain" />
             </div>
             <span className="font-[family-name:var(--font-heading)] text-xl font-bold tracking-wider text-primary glow-text">
               Darkinvaderr
@@ -124,7 +124,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="flex items-center gap-2">
               <div className="relative size-8">
-                <Image src="/image-new-nobg.png" alt="Darkinvaderr Banner" fill className="object-contain" />
+                <Image src="/image-new-nobg.png" alt="Darkinvaderr Banner" fill sizes="32px" className="object-contain" />
               </div>
               <span className="font-[family-name:var(--font-heading)] font-bold tracking-wider text-primary">
                 Gaming
