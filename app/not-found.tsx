@@ -1,6 +1,15 @@
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { FaDiscord } from "react-icons/fa"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "404 – Page Not Found",
+  robots: {
+    index: false,
+    follow: true,
+  },
+}
 
 // Next.js falls back to its own generic 404 UI without this file — this
 // keeps a mismatched/old link at least visually consistent with the rest
