@@ -133,7 +133,7 @@ export default function Home() {
             <div className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Maretyui<span className="sr-only"> (opens in a new tab)</span></a>. All rights reserved.
             </div>
-            <nav aria-label="Rechtliches" className="text-sm text-muted-foreground">
+            <nav aria-label="Legal" className="text-sm text-muted-foreground">
               <Link href="/impressum" className="hover:text-foreground">Impressum</Link> <span aria-hidden="true">|</span> <Link href="/datenschutz" className="hover:text-foreground">Datenschutz</Link>
             </nav>
             <div className="flex gap-4">
