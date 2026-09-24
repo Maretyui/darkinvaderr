@@ -11,7 +11,7 @@ export default function Datenschutz() {
     <main lang="de" className="min-h-screen bg-background pt-24 pb-12 text-primary">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link href="/" className="text-primary hover:text-primary/80 transition-colors mb-8 inline-block">
-          ← Zurück zur Startseite
+          <span aria-hidden="true">←</span> Zurück zur Startseite
         </Link>
 
         <h1 className="text-4xl md:text-5xl font-serif font-light">Datenschutzerklärung</h1>
