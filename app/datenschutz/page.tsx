@@ -52,7 +52,26 @@ export default function Datenschutz() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-primary mb-4">5. Cookies und Tracking</h2>
+            <h2 className="text-2xl font-semibold text-primary mb-4">5. Zahlungsabwicklung</h2>
+            <p>
+              Für die Verarbeitung von Zahlungen (z. B. Spenden) nutzen wir den Zahlungsdienstleister Stripe, Inc.
+              Bei einer Zahlung werden die dafür erforderlichen Daten direkt an Stripe übermittelt und dort
+              verarbeitet. Weitere Informationen findest du in der{" "}
+              <a
+                href="https://stripe.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-primary/80"
+              >
+                Datenschutzerklärung von Stripe
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+              .
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-primary mb-4">6. Cookies und Tracking</h2>
             <p>
               Diese Website kann Cookies oder Tracking-Technologien verwenden, um die Benutzerfreundlichkeit zu verbessern.
               Sie können die Speicherung von Cookies in Ihrem Browser deaktivieren; dies kann jedoch die Funktionalität
@@ -61,14 +80,14 @@ export default function Datenschutz() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-primary mb-4">6. Analyse-Tools</h2>
+            <h2 className="text-2xl font-semibold text-primary mb-4">7. Analyse-Tools</h2>
             <p>
               Es werden keine Analyse-Tools wie Google Analytics oder Matomo ohne Ihre Einwilligung verwendet.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-primary mb-4">7. Rechte der betroffenen Personen</h2>
+            <h2 className="text-2xl font-semibold text-primary mb-4">8. Rechte der betroffenen Personen</h2>
             <p>
               Sie haben das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, Berichtigung, Löschung,
               Einschränkung der Verarbeitung, Widerspruch und Datenübertragbarkeit.
@@ -76,7 +95,7 @@ export default function Datenschutz() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-primary mb-4">8. Kontakt</h2>
+            <h2 className="text-2xl font-semibold text-primary mb-4">9. Kontakt</h2>
             <p>
               Bei Fragen oder Anliegen zum Datenschutz wenden Sie sich bitte an: <br />
               Maik Reinhardt <br />
@@ -85,7 +104,7 @@ export default function Datenschutz() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-primary mb-4">9. Änderungen</h2>
+            <h2 className="text-2xl font-semibold text-primary mb-4">10. Änderungen</h2>
             <p>
               Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an aktuelle rechtliche Anforderungen oder
               Änderungen der Website anzupassen.
