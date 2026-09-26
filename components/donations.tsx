@@ -69,6 +69,7 @@ export default function Donations() {
                 <Input
                   id="amount"
                   type="number"
+                  inputMode="decimal"
                   min="1"
                   step="0.01"
                   placeholder="50.00"
