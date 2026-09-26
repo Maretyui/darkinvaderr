@@ -102,7 +102,7 @@ export default function Home() {
                   aria-label="Support on Patreon (opens in a new tab)"
                   className="border-border/60 text-muted-foreground hover:text-foreground hover:border-primary/50 hover:bg-card/50 transition-transform hover:scale-105">
                   <a
-                    href="https://patreon.com/DarkInvaderr/shop"
+                    href="https://www.patreon.com/DarkInvaderr/shop"
                     target="_blank"
                     rel="noopener noreferrer">
                     <IconBrandPatreon className="mr-2 size-5" aria-hidden="true" />
