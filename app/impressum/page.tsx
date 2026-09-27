@@ -4,6 +4,11 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Impressum | Darkinvaderr Gaming",
   description: "Impressum und rechtliche Anbieterkennzeichnung von Darkinvaderr Gaming.",
+  // Without this, the page inherits the root layout's canonical ("/"),
+  // telling search engines this page is a duplicate of the homepage.
+  alternates: {
+    canonical: "/impressum",
+  },
 }
 
 export default function Impressum() {
