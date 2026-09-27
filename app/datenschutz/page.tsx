@@ -4,6 +4,11 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Datenschutz | Darkinvaderr Gaming",
   description: "Datenschutzerklärung von Darkinvaderr Gaming.",
+  // Without this, the page inherits the root layout's canonical ("/"),
+  // telling search engines this page is a duplicate of the homepage.
+  alternates: {
+    canonical: "/datenschutz",
+  },
 }
 
 export default function Datenschutz() {
