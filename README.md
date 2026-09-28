@@ -13,7 +13,8 @@ Live: https://darkinvaderr.com
 
 - `app/page.tsx` — landing page: hero, image carousel (`components/carousel.tsx`), "What We Do" / "Who We Are" sections (`components/info.tsx`), donations (`components/donations.tsx`)
 - `app/thehub/page.tsx` — client-only forensic-scanner style image tool
-- `app/impressum/page.tsx`, `app/datenschutz/page.tsx` — legal pages
+- `app/impressum/page.tsx`, `app/datenschutz/page.tsx` — legal pages, each with their own `title`/`description` and `openGraph`/`twitter` overrides so a shared link previews the actual page instead of the homepage's marketing copy
+- `app/error/page.tsx` — client-only error page; since client components can't export `metadata`, its title and `robots: { index: false }` live in the sibling `app/error/layout.tsx` instead
 - Page title/description metadata lives in `app/layout.tsx`, kept in sync across the top-level `metadata`, `openGraph`, and `twitter` fields
 - `app/sitemap.ts`/`app/robots.ts` generate `sitemap.xml`/`robots.txt` at build time — the sitemap only lists the public pages (home, Impressum, Datenschutz), and `/thehub`/`/error` are excluded from crawling
 
