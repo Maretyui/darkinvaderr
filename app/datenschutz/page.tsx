@@ -9,6 +9,20 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/datenschutz",
   },
+  // Without these, a shared /datenschutz link previews with the homepage's
+  // "Elite GTA V modded heists community" marketing copy instead of
+  // describing what the page actually is.
+  openGraph: {
+    title: "Datenschutz | Darkinvaderr Gaming",
+    description: "Datenschutzerklärung von Darkinvaderr Gaming.",
+    url: "/datenschutz",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Datenschutz | Darkinvaderr Gaming",
+    description: "Datenschutzerklärung von Darkinvaderr Gaming.",
+  },
 }
 
 export default function Datenschutz() {

@@ -9,6 +9,20 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/impressum",
   },
+  // Without these, a shared /impressum link previews with the homepage's
+  // "Elite GTA V modded heists community" marketing copy instead of
+  // describing what the page actually is.
+  openGraph: {
+    title: "Impressum | Darkinvaderr Gaming",
+    description: "Impressum und rechtliche Anbieterkennzeichnung von Darkinvaderr Gaming.",
+    url: "/impressum",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Impressum | Darkinvaderr Gaming",
+    description: "Impressum und rechtliche Anbieterkennzeichnung von Darkinvaderr Gaming.",
+  },
 }
 
 export default function Impressum() {
