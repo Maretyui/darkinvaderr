@@ -141,13 +141,6 @@
   }
 }
 
-@layer utilities {
-  .left-50-percent {
-    left: 50%;
-    right: 50%;
-  }
-}
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
