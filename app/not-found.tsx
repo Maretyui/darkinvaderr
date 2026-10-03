@@ -9,6 +9,11 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  // Without these, a shared link to this page unfurled with the homepage's
+  // OG/Twitter title (and its logo image) instead of anything 404-specific,
+  // since Next.js otherwise inherits the root layout's full objects wholesale.
+  openGraph: { title: "404 – Page Not Found" },
+  twitter: { title: "404 – Page Not Found" },
 }
 
 // Next.js falls back to its own generic 404 UI without this file — this

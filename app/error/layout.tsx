@@ -12,6 +12,11 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  // Without these, a shared link to this page unfurled with the homepage's
+  // OG/Twitter title (and its logo image) instead of anything error-specific,
+  // since Next.js otherwise inherits the root layout's full objects wholesale.
+  openGraph: { title: "Error | Darkinvaderr Gaming" },
+  twitter: { title: "Error | Darkinvaderr Gaming" },
 }
 
 export default function ErrorLayout({ children }: { children: React.ReactNode }) {
