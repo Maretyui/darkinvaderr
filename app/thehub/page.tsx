@@ -29,6 +29,7 @@ export default function LockedForensicScanner() {
           className="text-xs file:bg-zinc-800 file:border-0 file:rounded file:text-white file:px-4 file:py-2 cursor-pointer hover:file:bg-zinc-700"
         />
         <button
+          type="button"
           onClick={() => setIsRevealed(!isRevealed)}
           aria-pressed={isRevealed}
           className={`px-10 py-2 rounded font-black transition-all duration-200 border-2 ${
