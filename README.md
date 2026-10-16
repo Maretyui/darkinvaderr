@@ -17,6 +17,7 @@ Live: https://darkinvaderr.com
 - `app/error/page.tsx` — client-only error page; since client components can't export `metadata`, its title and `robots: { index: false }` live in the sibling `app/error/layout.tsx` instead
 - Page title/description metadata lives in `app/layout.tsx`, kept in sync across the top-level `metadata`, `openGraph`, and `twitter` fields
 - `app/sitemap.ts`/`app/robots.ts` generate `sitemap.xml`/`robots.txt` at build time — the sitemap only lists the public pages (home, Impressum, Datenschutz), and `/thehub`/`/error` are excluded from crawling
+- `app/manifest.ts` is served at `/manifest.webmanifest` (auto-linked in `<head>` by Next.js) and gives the site a PWA identity — name, theme/background color, and an icon list. `app/icon.tsx` and `app/apple-icon.tsx` generate the actual PNG marks it references (a 512x512 for Chrome's install-prompt and Android adaptive icons, a 180x180 for iOS "Add to Home Screen"), since `favicon.ico` alone doesn't satisfy either
 
 ## Accessibility
 
