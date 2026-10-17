@@ -7,8 +7,7 @@ function Card({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="card"
       className={cn(
-        /* Updated to use --card and --card-foreground values */
-        "bg-[oklch(0.11_0.02_25)] text-[oklch(0.95_0.02_30)] flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
+        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
         className
       )}
       {...props}
@@ -33,8 +32,7 @@ function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-title"
-      /* Title usually inherits foreground, but made explicit if needed */
-      className={cn("leading-none font-semibold text-[oklch(0.95_0.02_30)]", className)}
+      className={cn("leading-none font-semibold text-card-foreground", className)}
       {...props}
     />
   )
@@ -44,8 +42,7 @@ function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-description"
-      /* Using a slightly lower opacity of the foreground for "muted" effect */
-      className={cn("text-[oklch(0.95_0.02_30/0.7)] text-sm", className)}
+      className={cn("text-card-foreground/70 text-sm", className)}
       {...props}
     />
   )
