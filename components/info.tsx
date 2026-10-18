@@ -14,6 +14,7 @@ function Info() {
               loading="lazy"
               width={1579}
               height={1033}
+              sizes="(min-width: 1024px) 50vw, 100vw"
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
@@ -58,6 +59,7 @@ function Info() {
               loading="lazy"
               width={1229}
               height={1080}
+              sizes="(min-width: 1024px) 50vw, 100vw"
               className="rounded-xl w-full h-auto shadow-2xl grayscale-[20%] border border-border hover:scale-[1.03] transition duration-300 ease-in-out"
             />
           </div>
