@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 import { motion, useReducedMotion } from "framer-motion"
 import { XCircle, RefreshCw } from "lucide-react"
 import { FaDiscord } from "react-icons/fa"
@@ -20,14 +20,20 @@ export default function Error({
   reset: () => void
 }) {
   const shouldReduceMotion = useReducedMotion()
+  const headingRef = useRef<HTMLHeadingElement>(null)
 
   useEffect(() => {
     console.error(error)
+    // This boundary replaces content in place with no route change/title
+    // update to cue assistive tech that something happened, so move focus
+    // to the heading to make sure it actually gets announced.
+    headingRef.current?.focus()
   }, [error])
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background via-background to-accent/5 px-4">
       <motion.div
+        role="alert"
         initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: shouldReduceMotion ? 0 : 0.5 }}
@@ -46,7 +52,13 @@ export default function Error({
           <XCircle className="w-24 h-24 text-destructive" aria-hidden="true" />
         </motion.div>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Something Went Wrong</h1>
+        <h1
+          ref={headingRef}
+          tabIndex={-1}
+          className="text-4xl md:text-5xl font-bold mb-4 text-balance outline-none"
+        >
+          Something Went Wrong
+        </h1>
 
         <p className="text-lg text-muted-foreground mb-8 text-balance">
           Unfortunately your request could not be processed. Please try again or reach out to us directly on
