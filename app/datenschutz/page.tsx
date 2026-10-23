@@ -83,7 +83,7 @@ export default function Datenschutz() {
                 className="underline hover:text-primary/80"
               >
                 Datenschutzerklärung von Stripe
-                <span className="sr-only"> (opens in a new tab)</span>
+                <span className="sr-only" lang="en"> (opens in a new tab)</span>
               </a>
               .
             </p>
