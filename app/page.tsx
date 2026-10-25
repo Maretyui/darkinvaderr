@@ -131,7 +131,7 @@ export default function Home() {
               </span>
             </div>
             <address className="text-sm text-muted-foreground not-italic">
-              &copy; {new Date().getFullYear()} <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer" className="rounded-sm outline-none hover:text-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50">Maretyui<span className="sr-only"> (opens in a new tab)</span></a>. All rights reserved.
+              &copy; {new Date().getFullYear()} <a href="https://maretyui.com" target="_blank" rel="noopener noreferrer author" className="rounded-sm outline-none hover:text-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50">Maretyui<span className="sr-only" lang="en"> (opens in a new tab)</span></a>. All rights reserved.
             </address>
             <nav aria-label="Legal" className="text-sm text-muted-foreground">
               <Link href="/impressum" className="rounded-sm outline-none hover:text-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50">Impressum</Link> <span aria-hidden="true">|</span> <Link href="/datenschutz" className="rounded-sm outline-none hover:text-foreground focus-visible:ring-[3px] focus-visible:ring-ring/50">Datenschutz</Link>
