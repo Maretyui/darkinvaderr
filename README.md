@@ -23,6 +23,8 @@ Live: https://darkinvaderr.com
 
 The homepage includes a "Skip to main content" link and labels every icon-only button (Discord/Twitch/Patreon/YouTube) with a descriptive `aria-label`. Images in `components/info.tsx` use `loading="lazy"` with explicit `width`/`height` to avoid layout shift. The carousel in `components/carousel.tsx` respects `prefers-reduced-motion` by disabling its scroll animation for users who request reduced motion. On `app/thehub/page.tsx`, the file input carries an `aria-label` (it had no accessible name otherwise) and the reveal toggle button exposes its state via `aria-pressed`.
 
+`app/globals.css` also has a `forced-colors: active` block for Windows High Contrast Mode (and other forced-colors user agents), which swaps in a user-chosen system palette rather than just boosting contrast — it pins the focus ring and selection highlight to the `CanvasText`/`Highlight`/`HighlightText` system color keywords so both stay visible under forced colors.
+
 ## Getting Started
 
 ```bash
