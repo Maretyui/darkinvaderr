@@ -12,6 +12,7 @@ export default function ErrorPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-background via-background to-accent/5 px-4">
       <motion.div
+        role="alert"
         initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: shouldReduceMotion ? 0 : 0.5 }}
