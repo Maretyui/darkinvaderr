@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     title: "Darkinvaderr Gaming",
     description:
       "Elite GTA V modded heists community on Discord.",
+    url: "https://darkinvaderr.com",
+    siteName: "Darkinvaderr Gaming",
+    locale: "en_US",
     images: [
       {
         url: "https://darkinvaderr.com/image-new.png",
